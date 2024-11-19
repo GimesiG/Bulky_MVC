@@ -51,7 +51,7 @@ namespace BulkyWeb.Areas.Customer.Controllers
                 //shopping cart exists
                 cartFromDb.Count += shoppingCart.Count;
                 _unitOfWork.ShoppingCart.Update(cartFromDb);
-            }
+            }               
             else
             {
                 //add cart
